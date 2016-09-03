@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UsefulWebViewer</string>
+    <string name="forward">前进</string>
+    <string name="back">后退</string>
+    <string name="go">GO</string>
+    <string name="hint_text">http://www.baidu.com</string>
+</resources>
