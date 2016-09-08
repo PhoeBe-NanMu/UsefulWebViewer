@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WebViewerForWeather</string>
+    <string name="btn_getWeather">获取天气数据</string>
+    <string name="weather_hint_text">百度天气测试</string>
+</resources>

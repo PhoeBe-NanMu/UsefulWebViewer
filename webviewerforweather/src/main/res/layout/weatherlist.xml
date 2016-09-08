@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/list_weather"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/image_info"
+            android:layout_marginRight="10dp"
+            android:layout_width="40dp"
+            android:layout_height="60dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:text="null"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp">
+                <TextView
+                    android:text="null"
+                    android:id="@+id/weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="null"
+                    android:id="@+id/wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="null"
+            android:id="@+id/temperature"
+            android:gravity="center_vertical"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="60dp" />
+</LinearLayout>
